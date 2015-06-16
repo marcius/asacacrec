@@ -6,4 +6,20 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'HTML_Formatter' => $vendorDir . '/niels/ganon/src/Ganon.php',
+    'HTML_NODE_ASP' => $vendorDir . '/niels/ganon/src/Ganon.php',
+    'HTML_NODE_CDATA' => $vendorDir . '/niels/ganon/src/Ganon.php',
+    'HTML_NODE_COMMENT' => $vendorDir . '/niels/ganon/src/Ganon.php',
+    'HTML_NODE_CONDITIONAL' => $vendorDir . '/niels/ganon/src/Ganon.php',
+    'HTML_NODE_DOCTYPE' => $vendorDir . '/niels/ganon/src/Ganon.php',
+    'HTML_NODE_EMBEDDED' => $vendorDir . '/niels/ganon/src/Ganon.php',
+    'HTML_NODE_TEXT' => $vendorDir . '/niels/ganon/src/Ganon.php',
+    'HTML_NODE_XML' => $vendorDir . '/niels/ganon/src/Ganon.php',
+    'HTML_Node' => $vendorDir . '/niels/ganon/src/Ganon.php',
+    'HTML_Parser' => $vendorDir . '/niels/ganon/src/Ganon.php',
+    'HTML_Parser_Base' => $vendorDir . '/niels/ganon/src/Ganon.php',
+    'HTML_Parser_HTML5' => $vendorDir . '/niels/ganon/src/Ganon.php',
+    'HTML_Selector' => $vendorDir . '/niels/ganon/src/Ganon.php',
+    'Tokenizer_Base' => $vendorDir . '/niels/ganon/src/Ganon.php',
+    'Tokenizer_CSSQuery' => $vendorDir . '/niels/ganon/src/Ganon.php',
 );

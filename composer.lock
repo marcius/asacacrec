@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "310c2b3cafb9f8d3160b12f01ceaf63e",
+    "hash": "ded37cfb0f3cc9ecc82f6e4230353c26",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -110,17 +110,55 @@
             "time": "2013-11-30 08:25:19"
         },
         {
+            "name": "niels/ganon",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Shemahmforash/Ganon.git",
+                "reference": "df0fd019e4541ec1797bd05f934289e251d0e877"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Shemahmforash/Ganon/zipball/df0fd019e4541ec1797bd05f934289e251d0e877",
+                "reference": "df0fd019e4541ec1797bd05f934289e251d0e877",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Niels A.D.",
+                    "homepage": "https://code.google.com/p/ganon/"
+                }
+            ],
+            "description": "Fast (HTML DOM) parser written in PHP.",
+            "keywords": [
+                "dom",
+                "html",
+                "parser"
+            ],
+            "time": "2014-03-31 14:34:22"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "41a2d6227dbb47c1ec28d1a9508c61646bbb30ee"
+                "reference": "0beeac88365c580ae617d8fe8f37e4fb3a1caf22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/41a2d6227dbb47c1ec28d1a9508c61646bbb30ee",
-                "reference": "41a2d6227dbb47c1ec28d1a9508c61646bbb30ee",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/0beeac88365c580ae617d8fe8f37e4fb3a1caf22",
+                "reference": "0beeac88365c580ae617d8fe8f37e4fb3a1caf22",
                 "shasum": ""
             },
             "require": {
@@ -161,7 +199,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2014-06-01 03:21:42"
+            "time": "2014-06-12 08:08:15"
         },
         {
             "name": "twbs/bootstrap",
@@ -269,12 +307,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "f9047429e414227cfb9383b1ee2ebf5d5adc2944"
+                "reference": "674974f0dcc140cadf1e21986a5c6e35c3cdf6df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/f9047429e414227cfb9383b1ee2ebf5d5adc2944",
-                "reference": "f9047429e414227cfb9383b1ee2ebf5d5adc2944",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/674974f0dcc140cadf1e21986a5c6e35c3cdf6df",
+                "reference": "674974f0dcc140cadf1e21986a5c6e35c3cdf6df",
                 "shasum": ""
             },
             "require": {
@@ -339,7 +377,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2014-06-11 17:45:55"
+            "time": "2014-06-12 19:16:30"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -558,12 +596,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "9ef1809da49a4f34cdf2f49b20d8c077b20cf8d9"
+                "reference": "4bfa006772e01bf53be2970e37b836ec2a37d6bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/9ef1809da49a4f34cdf2f49b20d8c077b20cf8d9",
-                "reference": "9ef1809da49a4f34cdf2f49b20d8c077b20cf8d9",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/4bfa006772e01bf53be2970e37b836ec2a37d6bf",
+                "reference": "4bfa006772e01bf53be2970e37b836ec2a37d6bf",
                 "shasum": ""
             },
             "require": {
@@ -594,7 +632,7 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2014-06-11 07:54:08"
+            "time": "2014-06-11 20:10:33"
         },
         {
             "name": "yiisoft/yii2-gii",
@@ -646,9 +684,9 @@
 
     ],
     "minimum-stability": "dev",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "niels/ganon": 20
+    },
     "platform": {
         "php": ">=5.4.0"
     },
